@@ -6,9 +6,8 @@ public class numbers {
     public static void main(String[] args) {
         Random rnd = new Random();
         int RandomNumber = rnd.nextInt(100);
-        System.out.println(RandomNumber);
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter a name: ");
+        System.out.print("Enter your name: ");
         String name= sc.next();
         System.out.println("Let the game begin! ");
         int userNumber=0;
